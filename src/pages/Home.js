@@ -21,7 +21,7 @@ function Home() {
                     </div>
                     <div className='row daylist'>
                         {daylist.map((day) => (
-                            <div className='col-1'>
+                            <div className='col col-lg-1'>
                                 {thisDay !== day &&
                                     <button className='btn btn-primary'
                                         style={selected === day ? { borderColor: "white", borderRadius: "5px", boxShadow: "0px 0px 0px 5px rgba(0, 0, 0, 0.300)" } : {}}
