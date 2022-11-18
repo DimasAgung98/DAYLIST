@@ -54,3 +54,20 @@ code {
 .btn:focus {
   outline: none !important;
 }
+
+@media (max-width: 1920px) {
+  .btn {
+    width: 100px;
+  }
+}
+
+@media (max-width: 1190px) {
+  .btn {
+    width: 100px;
+  }
+
+  .daylist {
+    width: auto;
+    justify-content: space-between;
+  }
+}
