@@ -61,13 +61,10 @@ code {
   }
 }
 
-@media (max-width: 1190px) {
+@media (max-width: 1320px) {
   .btn {
     width: 100px;
-  }
-
-  .daylist {
-    width: auto;
-    justify-content: space-between;
+    margin-left: 30px !important;
+    margin-right: 30px !important;
   }
 }
