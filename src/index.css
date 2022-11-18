@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.wrapper-area {
+  background-color: rgb(245, 245, 245);
+  margin-top: 100px;
+}
+
+.today-title {
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.this-day {
+  color: green;
+  font-weight: bold;
+}
+
+.this-day-bg {
+  background-color: green !important;
+  color: aqua !important;
+}
+
+.daylist {
+  height: 5rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(226, 226, 226);
+}
+
+.selected-day {
+  color: rgb(0, 132, 255);
+  font-weight: bold;
+}
+
+.btn {
+  width: 150px;
+  height: 50px;
+}
+
+.btn:focus {
+  outline: none !important;
+}
